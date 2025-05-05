@@ -1,56 +1,100 @@
+/* CSS Resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: #0D1B2A;
-    margin: 0;
-    height: 100vh; /* altura total del viewport */
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* centra verticalmente */
-    align-items: center;     /* centra horizontalmente */
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
 
 h1 {
     color: #CCCCCC;
     text-align: center;
     margin-bottom: 20px;
+    font-size: 2rem;
 }
 
 .datos {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px; /* espacio entre input y botón */
+    gap: 10px;
+    width: 100%;
+    max-width: 400px;
 }
 
 input[type="date"] {
     padding: 10px;
-    font-size: 16px;
+    font-size: 1rem;
     border-radius: 8px;
     border: none;
+    width: 100%;
 }
 
 button {
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 1rem;
     border-radius: 8px;
     border: none;
     background-color: #5F4B8B;
     color: white;
     cursor: pointer;
+    width: 100%;
 }
 
 #signoInfo {
     color: #CCCCCC;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signo-img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    display: block;
+    margin: 20px auto;
+    border-style: solid;
+    border-color: #FFD700;
+}
+
+.caja {
+    background: #191970;
+    width: 90%;
+    max-width: 400px;
+    padding: 5vw;
+    margin: auto;
+    border-radius: 12px;
+}
+
+/* Media Queries para móviles */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    input[type="date"],
+    button {
+        font-size: 1rem;
+    }
+
+    #signoInfo {
+        font-size: 1rem;
     }
 
     .signo-img {
-        width: 200px;
-        height: auto;
-        border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-        display: block;
-        margin: 20px auto;
-        border-style: solid;
-        border-color: #FFD700;
-        }
+        max-width: 200px;
+    }
+}

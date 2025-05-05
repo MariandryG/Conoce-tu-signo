@@ -1,4 +1,6 @@
 
+
+
 function obtenerSignoZodiacal(dia, mes) {
     const signos = [
       { nombre: "Capricornio", fechaInicio: [12, 22], fechaFin: [1, 19], descripcion: "Práctico, disciplinado, ambicioso." },

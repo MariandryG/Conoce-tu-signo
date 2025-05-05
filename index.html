@@ -2,15 +2,17 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Conoce tu signo</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>🔍 Conoce tu signo </h1>
-  <form class="datos">
-  <input type="date" id="fechaNacimiento"  required min="1900-01-01" max="2025-12-31" >
-<button onclick="buscarSigno()">Ver mi signo</button>
-<div id="signoInfo"></div>
+  <div class="caja">
+      <h1>🔍 Conoce tu signo </h1>
+      <form class="datos">
+      <input type="date" id="fechaNacimiento"  required min="1900-01-01" max="2025-12-31" >
+      <button type="submit">Ver mi signo</button>
+    <div id="signoInfo"></div>
 </div>
 </form>
   <script src="codigo.js"></script>
