@@ -22,6 +22,11 @@ h1 {
     font-size: 2rem;
 }
 
+h3 {
+    color:#CCCCCC;
+    font-size: 1rem;
+}
+
 .datos {
     display: flex;
     flex-direction: column;
@@ -97,4 +102,23 @@ button {
     .signo-img {
         max-width: 200px;
     }
+}
+.socicon {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 80%;
+    object-fit: contain;
+    display: inline-block;
+    margin-right: 0.1rem; 
+            }
+
+.empresa {
+width: 2.5rem;
+height: 2.5rem;
+border-radius: 10%;
+object-fit: contain;
+display: inline-block;
+margin: 15px;
+border-style: solid;
+border-color: #FFD700;        
 }
