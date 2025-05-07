@@ -113,12 +113,12 @@ button {
             }
 
 .empresa {
-width: 2.5rem;
-height: 2.5rem;
-border-radius: 10%;
-object-fit: contain;
-display: inline-block;
-margin: 15px;
-border-style: solid;
-border-color: #FFD700;        
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 10%;
+    object-fit: contain;
+    display: inline-block;
+    margin: 15px;
+    border-style: solid;
+    border-color: #FFD700;        
 }

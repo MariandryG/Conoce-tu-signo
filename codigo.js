@@ -43,7 +43,7 @@ function obtenerSignoZodiacal(dia, mes) {
   return { nombre: signo, descripcion: descripcion };
 }
 
-// ✅ Función que devuelve el archivo de imagen correspondiente al signo
+
 function getZodiacImageFile(nombreSigno) {
   const imagenes = {
     "Aries": "aries.png",
