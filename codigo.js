@@ -63,7 +63,7 @@ function getZodiacImageFile(nombreSigno) {
   return imagenes[nombreSigno] || "aries.png"; // Imagen por defecto
 }
 
-// ✅ Evento que se ejecuta cuando el usuario envía el formulario
+// Evento que se ejecuta cuando el usuario envía el formulario
 document.querySelector('.datos').addEventListener('submit', function (e) {
   e.preventDefault(); // Previene que la página se recargue
 
